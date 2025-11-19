@@ -26,7 +26,9 @@ function getAnalyticsStats() {
     if (!acc[date]) {
       acc[date] = { visitors: new Set(), visits: 0 };
     }
-    acc[date].visitors.add(visit.ipAddress);
+    if (visit.ipAddress) {
+      acc[date].visitors.add(visit.ipAddress);
+    }
     acc[date].visits++;
     return acc;
   }, {} as Record<string, { visitors: Set<string>; visits: number }>);
