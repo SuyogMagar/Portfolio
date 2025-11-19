@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Skill } from '@/types/portfolio';
 import { FaJava, FaReact, FaGitAlt, FaDocker, FaCode, FaServer, FaPalette, FaTools } from 'react-icons/fa';
-import { SiSpringboot, SiPostgresql, SiTypescript, SiMysql, SiRedis, SiMaven, SiJunit5, SiAngular, SiNodedotjs, SiFirebase, SiTailwindcss, SiMongodb } from 'react-icons/si';
+import { SiSpringboot, SiPostgresql, SiTypescript, SiMysql, SiRedis, SiApachemaven, SiJunit, SiAngular, SiNodedotjs, SiFirebase, SiTailwindcss, SiMongodb } from 'react-icons/si';
 
 const SkillsPage = () => {
   const skills: Skill[] = [
