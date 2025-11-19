@@ -25,8 +25,8 @@ const AboutPage = () => {
     tools: [
       { name: 'Git', icon: FaGitAlt, level: 90, color: 'text-orange-600' },
       { name: 'Docker', icon: FaDocker, level: 70, color: 'text-blue-500' },
-      { name: 'Maven', icon: SiMaven, level: 85, color: 'text-red-600' },
-      { name: 'JUnit', icon: SiJunit5, level: 80, color: 'text-green-600' }
+      { name: 'Maven', icon: SiApachemaven, level: 85, color: 'text-red-600' },
+      { name: 'JUnit', icon: SiJunit, level: 80, color: 'text-green-600' }
     ]
   };
 
