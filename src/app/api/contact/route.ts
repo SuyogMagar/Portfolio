@@ -8,9 +8,7 @@ const contactSchema = z.object({
   email: z.string().email('Please enter a valid email address'),
   company: z.string().optional(),
   message: z.string().min(50, 'Message must be at least 50 characters long'),
-  inquiryType: z.enum(['job-opportunity', 'collaboration', 'general'], {
-    required_error: 'Please select an inquiry type'
-  })
+  inquiryType: z.enum(['job-opportunity', 'collaboration', 'general']).default('general')
 });
 
 // In-memory storage for demo purposes (in production, use a database)
