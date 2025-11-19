@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
     const validationResult = contactSchema.safeParse(body);
 
     if (!validationResult.success) {
-      const errorMessages = validationResult.error.errors.map(err => err.message);
+      const errorMessages = validationResult.error.issues.map(err => err.message);
       return NextResponse.json(
         {
           success: false,
