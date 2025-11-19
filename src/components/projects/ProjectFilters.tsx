@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import motion from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Project } from '@/types/portfolio';
 import { FaFilter, FaTimes } from 'react-icons/fa';
 
