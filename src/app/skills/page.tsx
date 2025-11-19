@@ -32,8 +32,8 @@ const SkillsPage = () => {
     // Tools
     { id: '17', name: 'Git', category: 'tool', proficiency: 'advanced', yearsOfExperience: 5, icon: 'FaGitAlt', displayOrder: 1 },
     { id: '18', name: 'Docker', category: 'tool', proficiency: 'intermediate', yearsOfExperience: 2, icon: 'FaDocker', displayOrder: 2 },
-    { id: '19', name: 'Maven', category: 'tool', proficiency: 'advanced', yearsOfExperience: 4, icon: 'SiMaven', displayOrder: 3 },
-    { id: '20', name: 'JUnit', category: 'tool', proficiency: 'expert', yearsOfExperience: 4, icon: 'SiJunit5', displayOrder: 4 },
+    { id: '19', name: 'Maven', category: 'tool', proficiency: 'advanced', yearsOfExperience: 4, icon: 'SiApachemaven', displayOrder: 3 },
+    { id: '20', name: 'JUnit', category: 'tool', proficiency: 'expert', yearsOfExperience: 4, icon: 'SiJunit', displayOrder: 4 },
     { id: '21', name: 'IntelliJ IDEA', category: 'tool', proficiency: 'advanced', yearsOfExperience: 5, icon: 'FaTools', displayOrder: 5 },
     { id: '22', name: 'VS Code', category: 'tool', proficiency: 'expert', yearsOfExperience: 3, icon: 'FaCode', displayOrder: 6 }
   ];
