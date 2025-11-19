@@ -42,7 +42,7 @@ const SkillsPage = () => {
     const iconMap: { [key: string]: any } = {
       FaJava, SiTypescript, FaCode, FaServer, SiSpringboot, FaReact, SiPostgresql,
       SiMysql, SiMongodb, SiRedis, SiFirebase, FaGitAlt, FaDocker, SiApachemaven,
-      SiJunit, SiAngular, SiNodedotjs, SiTailwindcss, FaTools
+      SiJunit5, SiAngular, SiNodedotjs, SiTailwindcss, FaTools
     };
     return iconMap[iconName] || FaCode;
   };
