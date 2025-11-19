@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { FaJava, FaReact, FaGitAlt, FaDocker, FaDatabase, FaCode, FaServer, FaPalette } from 'react-icons/fa';
-import { SiSpringboot, SiPostgresql, SiTypescript, SiMysql, SiRedis, SiMaven, SiJunit5 } from 'react-icons/si';
+import { SiSpringboot, SiPostgresql, SiTypescript, SiMysql, SiRedis, SiApachemaven, SiJunit } from 'react-icons/si';
 
 const AboutPage = () => {
   const skills = {
