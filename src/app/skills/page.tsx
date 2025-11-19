@@ -41,8 +41,8 @@ const SkillsPage = () => {
   const getIconComponent = (iconName: string) => {
     const iconMap: { [key: string]: any } = {
       FaJava, SiTypescript, FaCode, FaServer, SiSpringboot, FaReact, SiPostgresql,
-      SiMysql, SiMongodb, SiRedis, SiFirebase, FaGitAlt, FaDocker, SiMaven,
-      SiJunit5, SiAngular, SiNodedotjs, SiTailwindcss, FaTools
+      SiMysql, SiMongodb, SiRedis, SiFirebase, FaGitAlt, FaDocker, SiApachemaven,
+      SiJunit, SiAngular, SiNodedotjs, SiTailwindcss, FaTools
     };
     return iconMap[iconName] || FaCode;
   };
