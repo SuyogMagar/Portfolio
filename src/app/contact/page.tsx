@@ -14,7 +14,7 @@ const contactSchema = z.object({
   email: z.string().email('Please enter a valid email address'),
   company: z.string().optional(),
   message: z.string().min(50, 'Message must be at least 50 characters long'),
-  inquiryType: z.enum(['job-opportunity', 'collaboration', 'general']).default('general')
+  inquiryType: z.enum(['job-opportunity', 'collaboration', 'general'])
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
