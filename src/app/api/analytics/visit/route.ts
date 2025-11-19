@@ -7,7 +7,7 @@ const visits: VisitorAnalytics[] = [];
 // Simple analytics aggregation
 function getAnalyticsStats() {
   const totalVisits = visits.length;
-  const uniqueVisitors = new Set(visits.map(v => v.ipAddress)).size;
+  const uniqueVisitors = new Set(visits.map(v => v.ipAddress).filter(Boolean)).size;
 
   // Page views
   const pageViews = visits.reduce((acc, visit) => {
